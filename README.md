@@ -7,7 +7,7 @@ The PHP web interface demonstrates server-side rendering with gRPC data. It inte
 composer install
 
 # Generate the PHP gRPC client stubs
-./generate_php.sh
+Update-PhpGrpc -ProtosArray @("model", "playing_field")
 
 # Navigate to the public directory
 cd ./public
