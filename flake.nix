@@ -79,7 +79,7 @@
           '';
 
           meta = with inputs.nixpkgs.lib; {
-            description = "The main service of the Game Theory Demo Application.";
+            description = "Interface for the Game Theory gRPC demo application.";
             license = licenses.mpl20;
             maintainers = with maintainers; [ steffen70 ];
           };
